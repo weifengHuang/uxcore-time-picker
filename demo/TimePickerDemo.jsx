@@ -34,6 +34,13 @@ class Demo extends React.Component {
         <TimePicker showSecond={false} />
         <h1>12H</h1>
         <TimePicker use12Hours />
+        <h1>尺寸</h1>
+        <TimePicker />
+        <TimePicker size="middle" style={{ marginTop: 10 }} />
+        <TimePicker size="small" style={{ marginTop: 10 }} />
+        <h1>国际化</h1>
+        <TimePicker />
+        <TimePicker locale="en-us" style={{ marginTop: 10 }} />
       </div>
     );
   }
