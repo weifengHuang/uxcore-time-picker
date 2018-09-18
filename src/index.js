@@ -6,5 +6,4 @@
  * All rights reserved.
  */
 
-export default from './TimePicker';
-
+export default from "./TimePicker";
